@@ -102,7 +102,6 @@ void IceCreamCone::SetConeType(const string& aConeType) {
 }
 // end function SetConeType
 
-
 // function that sets IceCreamCone
 void IceCreamCone::SetIceCreamCone(const string& aFlavor, int aNoOfScoops, const string& aConeType) {
 	this->SetFlavor(aFlavor);
