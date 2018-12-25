@@ -19,6 +19,11 @@ public:
 	/** Default + Overloaded constructor.
 	*/
 	IceCreamCone(const string& = "Vanilla", int = 1, const string& = "Sugar");
+	
+	// Use compiler-generated copy constructor, assignment, and destructor.
+	// IceCreamCone(const IceCreamCone&);
+	// IceCreamCone& operator=(const IceCreamCone&);
+	// ~IceCreamCone();
 
 // OPERATIONS
 	/** function that displays the IceCream.
